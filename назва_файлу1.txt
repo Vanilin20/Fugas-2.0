@@ -1,1 +1,12 @@
 Текст у файлі
+program SumOfTwoNumbers;
+uses crt;
+var
+  a, b, sum: integer;
+begin
+  writeln('Введіть два числа:');
+  readln(a);
+  readln(b);
+  sum := a + b;
+  writeln('Сума: ', sum);
+end.
