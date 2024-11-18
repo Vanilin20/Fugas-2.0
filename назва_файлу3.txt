@@ -1,0 +1,12 @@
+program Factorial;
+uses crt;
+var
+  n, i, fact: integer;
+begin
+  writeln('Введіть число для обчислення факторіалу:');
+  readln(n);
+  fact := 1;
+  for i := 1 to n do
+    fact := fact * i;
+  writeln('Факторіал числа ', n, ' дорівнює ', fact);
+end.
