@@ -1,0 +1,12 @@
+program CheckEvenNumber;
+uses crt;
+var
+  num: integer;
+begin
+  writeln('Введіть число:');
+  readln(num);
+  if num mod 2 = 0 then
+    writeln(num, ' - парне число.')
+  else
+    writeln(num, ' - непарне число.');
+end.
